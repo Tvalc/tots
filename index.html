@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coop's Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="game-canvas" width="800" height="600" tabindex="0"></canvas>
+
+  <!-- Core Configuration -->
+  <script src="game.config.js"></script>
+
+  <!-- Utility Scripts -->
+  <script src="utils/AssetManager.js"></script>
+  <script src="utils/SeededRandom.js"></script>
+  <script src="utils/CollisionUtils.js"></script>
+  <script src="utils/AnimationUtils.js"></script>
+  <script src="utils/PaletteSwap.js"></script>
+
+  <!-- Systems -->
+  <script src="systems/InputManager.js"></script>
+  <script src="systems/StateManager.js"></script>
+  <script src="systems/AudioManager.js"></script>
+  <script src="systems/WaveGenerator.js"></script>
+  <script src="systems/PerformanceMonitor.js"></script>
+
+  <!-- Entities -->
+  <script src="entities/Enemy.js"></script>
+  <script src="entities/EnemyPool.js"></script>
+  <script src="entities/Effect.js"></script>
+  <script src="entities/EffectPool.js"></script>
+  <script src="entities/PowerUp.js"></script>
+  <script src="entities/PowerUpPool.js"></script>
+  <script src="entities/PropPool.js"></script>
+  <script src="entities/DestructibleProp.js"></script>
+  <script src="entities/CoinboyEnemy.js"></script>
+  <script src="entities/Coop.js"></script>
+
+  <!-- Scenes -->
+  <script src="scenes/BootScene.js"></script>
+  <script src="scenes/PreloadScene.js"></script>
+  <script src="scenes/GameScene.js"></script>
+  <script src="scenes/PauseScene.js"></script>
+  <script src="scenes/UIScene.js"></script>
+  <script src="scenes/MainMenuScene.js"></script>
+  <script src="scenes/GameOverScene.js"></script>
+
+  <!-- UI -->
+  <script src="ui/HUDOverlay.js"></script>
+  <script src="ui/GameOverOverlay.js"></script>
+  <script src="ui/MenuOverlay.js"></script>
+  <script src="ui/PauseOverlay.js"></script>
+  <script src="ui/SettingsOverlay.js"></script>
+  <script src="ui/VirtualControls.js"></script>
+
+  <!-- Placeholder Assets -->
+  <script src="assets/placeholderSprites.js"></script>
+  <script src="assets/placeholderAudio.js"></script>
+
+  <!-- Main Entry -->
+  <script src="main.js"></script>
+</body>
+</html>
